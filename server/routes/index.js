@@ -12,6 +12,4 @@ const router = new Router({
 // => model view 通信
 router.get('/user', user.getUserInfo)
       .get('/articles/:page?/:limit?',article.getArticles)  //koa动态路由参数
-
-
 export default router
